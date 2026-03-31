@@ -16,7 +16,7 @@ jobs:
 
       - uses: docker/login-action@v3
         with:
-          registry: bunker.mantracare.com
+          registry: https://bunker.mantracare.com
           username: ${ secrets.USERNAME }
           password: ${ secrets.PASSWORD }
 
